@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- company name font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body> 
+     <!-- form start -->
+   <div class="logocenter">
+    <div class="companyBar">
+        <p id="companyLogo">
+          <img
+            id="companyLogoImg"
+            src="icons/weblogo.jpg"
+            alt="CompanyLogo"
+          />
+        </p>
+        <h1>SMRT & LOOK</h1>
+      </div>
+   </div>
+    <div class="formcontainer">
+        <form class="registration">
+            <fieldset>
+                <legend>Registration</legend>
+                <p><input id="inputform" type="text" placeholder="username"></p>
+                <p><input id="inputform" type="email" email placeholder="email"></p>
+                <p><input id="inputform" type="email" email placeholder="verify email"></p>
+                <p><input id="inputform" type="password" placeholder="password"></p>
+                <p><input id="inputform" type="password" placeholder="verify password"></p>
+                <a href="index.html"><input id="submitform" type="submit" value="SignUp"></a>
+            </fieldset>
+            </form>
+
+            <form class="login">
+                <fieldset>
+                    <legend>Old user</legend>
+                    <a href="">
+                        <img class="svgicon" src="icons/googleicon.png" alt="">
+                        <img class="svgicon" src="icons/githubicon.png" alt="">
+                        <img class="svgicon" src="icons/twittericon.png" alt="">
+                    </a>
+                    <p class="or">or</p>
+                    <p><input id="inputform" type="email" email placeholder="email"></p>
+                    <p><input id="inputform" type="password" placeholder="password"></p>
+                    <a class="forgetp" href="">forget password ?</a>
+                    <a target="_blank" href="index.html"><input id="submitform" type="submit" value="SignIn"></a>
+                </fieldset>
+                </form>
+    </div>
+     <!-- form end -->
+</body>
+</html>

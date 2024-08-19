@@ -1,0 +1,428 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMRT & LOOK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icons/weblogo.jpg" type="image/x-icon" />
+
+    <!-- company name font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper in section 1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainContainer" id="mainContainer">
+      <!-- Header And Navigation; -->
+      <header class="header">
+        <!-- Website name and login icon -->
+        <div class="heading">
+          <div class="companyBar">
+            <p id="companyLogo">
+              <img
+                id="companyLogoImg"
+                src="icons/weblogo.jpg"
+                alt="CompanyLogo"
+              />
+            </p>
+            <h1>SMRT & LOOK</h1>
+          </div>
+          <div class="login">
+            <!-- <p id="loginwritten"><a href="">Login/SignUp</a></p> -->
+            <p>
+              <a target="_blank" id="profileshow" href="form.html"
+                ><img
+                  id="login"
+                  class="icons"
+                  src="icons/profile.svg"
+                  alt="profileIcon"
+              /></a>
+            </p>
+            <p>
+              <a id="favhidden" href=""
+                ><img
+                  id="login"
+                  class="icons"
+                  src="icons/fav.svg"
+                  alt="favItem"
+              /></a>
+            </p>
+            <p>
+              <a id="cartshow" href=""
+                ><img id="login" class="icons" src="icons/cart.svg" alt="Cart"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <!-- Navigation and search button -->
+        <div class="nav">
+          <!-- Nav Content -->
+          <div class="navItem">
+            <a id="navtxt" href="#techgrid">Tech</a>
+            <a id="navtxt" href="#looksgrid">Looks</a>
+            <a id="navtxt" href="#clothgrid">Clothing</a>
+            <a id="navtxt" href="#footgrid">FootWear</a>
+          </div>
+          <!-- SearchBar -->
+          <div id="SearchBar">
+            <img id="searchIcon" src="icons/search.svg" alt="searchIcon" />
+            <input id="searchTxt" type="text" placeholder="Search..." name="search"/>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- Main content -->
+        <section class="swiperImg">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><a href="#techgrid"><img src="icons/techSec.jpg" alt="tech"></a></div>
+              <div class="swiper-slide"><a href="#footgrid"><img src="icons/footwearSec.jpg" alt="footwear"></a></div>
+              <div class="swiper-slide"><a href="#clothgrid"><img src="icons/clothingSec.jpg" alt="clothing"></a></div>
+              <div class="swiper-slide"><a href="#looksgrid"><img src="icons/beautySec.jpg" alt="beauty"></a></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+
+        <!-- section 2 grid tech -->
+         <section class="techGrid" id="techgrid">
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid1.jpg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>  
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid2.jpeg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid3.jpg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>
+          
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid4.jpg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>
+          
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid5.jpeg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>
+          
+          <div class="techgridcont">
+            <div class="techitem"><div>
+              <img class="techitemimg" src="icons/techgrid6.jpeg" alt="">
+              <a class="techitemprice" href="">
+                <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                <p><h2>$200</h2></p>
+                <button class="techb">Buy</button>
+              </a>
+            </div></div>
+          </div>
+         
+         </section>
+         <!-- section 2 grid tech end -->
+          <section class="clothgrid" id="clothgrid">
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid2.jpeg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid3.jpg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid4.jpg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid5.jpg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid6.jpeg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+            <div class="clothgridcont">
+              <div class="clothitem"><div>
+                <img class="clothitemimg" src="icons/clothgrid1.jpg" alt="">
+                <a class="clothitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techc">Buy</button>
+                </a>
+            </div>
+            </div></div>
+          </section>
+          <!-- section 3 cloth grid end -->
+
+          <section class="looksgrid" id="looksgrid">
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid1.jpeg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid2.jpg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid3.jpeg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid4.jpg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid5.jpeg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+            <div class="looksgridcont">
+              <div class="looksitem"><div>
+                <img class="looksitemimg" src="icons/looksgrid6.jpg" alt="">
+                <a class="looksitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techl">Buy</button>
+                </a>
+              </div></div>
+            </div>  
+          </section>
+<!-- section 3 looks -->
+          <section class="footgrid" id="footgrid">
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid1.jpeg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid1.jpg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid3.jpeg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid4.jpg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid5.jpg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+            <div class="footgridcont">
+              <div class="footitem"><div>
+                <img class="footitemimg" src="icons/footgrid6.jpg" alt="">
+                <a class="footitemprice" href="">
+                  <p><h3>POCO C65 (Pastel Blue 4GB RAM 128GB Storage) | 90Hz Display | 50MP AI Triple Camera</h3></p>
+                  <p><h2>$200</h2></p>
+                  <button class="techf">Buy</button>
+                </a>
+              </div></div>
+            </div>
+          </section>  
+    </main>
+    <!-- main content ended -->
+    </div>
+
+    <!-- section ---extra -->
+    <div class="main6">
+      <div class="contentsec">
+          <div class="contentlogo">
+              <div class="content1logo">
+                  <img id="content1logoimg" src="icons/weblogo.jpg" alt="">
+                  <h2 id="content1logoh2">SMRT & LOOK</h2>
+              </div>
+              <p class="content2logopara">Seamless BUY by using Payments.</p>
+              <div class="content3logo">
+                  <img id="content3logoimg" src="icons/paytm.png" alt="">
+                  <img id="content3logoimg" src="icons/gpay.png" alt="">
+                  <img id="content3logoimg" src="icons/netbank.png" alt="">
+                  <img id="content3logoimg" src="icons/cards.png" alt="">
+              </div>
+          </div>
+          <div class="contentabout">
+              <div class="contentaboutgrid">
+                  <h2 id="contentabouth2"> GADGETS</h2>
+                  <p id="contentaboutpara">Phones</p>
+                  <p id="contentaboutpara">Laptops</p>
+                  <p id="contentaboutpara">Headphones</p>
+                  <p id="contentaboutpara">Earbuds</p>
+              </div>
+              <div class="contentaboutgrid">
+                  <h2 id="contentabouth2">BEAUTY</h2>
+                  <p id="contentaboutpara">Lipsticks</p>
+                  <p id="contentaboutpara">Foundations</p>
+                  <p id="contentaboutpara">Eyeliner</p>
+                  <p id="contentaboutpara">Facecream</p>
+              </div>
+              <div class="contentaboutgrid">
+                  <h2 id="contentabouth2">CLOTHES</h2>
+                  <p id="contentaboutpara">Jeans</p>
+                  <p id="contentaboutpara">Shirts</p>
+                  <p id="contentaboutpara">Dresses</p>
+                  <p id="contentaboutpara">Pants</p>
+              </div>
+              <div class="contentaboutgrid">
+                  <h2 id="contentabouth2">FOOTWEAR</h2>
+                  <p id="contentaboutpara">Sneakers</p>
+                  <p id="contentaboutpara">Boots</p>
+                  <p id="contentaboutpara">Sports</p>
+                  <p id="contentaboutpara">Casuals</p>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- section extra ended -->
+    <!--footer  -->
+    <footer class="footer">
+        <p id="footerpara"> © 2021 - Present SMRT && LOOKS . All rights reserved.</p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

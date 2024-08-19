@@ -1,0 +1,92 @@
+    /* form */
+.logincontent{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formcontainer{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.companyBar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#companyLogo{
+    width: 10%;
+}
+#companyLogoImg{
+    width: 90%;
+    object-fit: fill;
+}
+.logocenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+fieldset{
+    font-size: 1rem;
+    width: 16rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.svgicon{
+    padding: 1rem;
+}
+.forgetp{
+    padding-bottom: 1rem;
+}
+#inputform{
+    padding: .2rem;
+    border-radius: .3rem;
+}
+#submitform{
+    border-radius: .5rem;
+    padding: .4rem;
+}
+.svgicon{
+    width: 2.2rem;
+}
+@media screen and (max-width:930px) {
+    .formcontainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       gap: 2.4rem;
+    }
+
+    .companyBar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+}
+.or{
+    font-size: 1.2rem;
+}
+  /* form end */

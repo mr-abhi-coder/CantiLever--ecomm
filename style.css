@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);  */
+    input:focus{
+        outline: none;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+                                                      /* header   container MAIN */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: .1rem solid black; */
+    border-bottom: .2rem solid black;
+    box-shadow: .1rem .1rem .6rem black;
+}
+
+
+.companyBar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#companyLogo{
+    width: 10%;
+}
+#companyLogoImg{
+    width: 90%;
+    object-fit: fill;
+}
+h1{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+
+#login{
+    width: 90%;
+    object-fit: contain;
+}
+.login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.icons{
+    width: 9rem;
+    height: 3rem;
+}
+
+
+.nav{                                          
+    margin: 1% 3%;
+    padding: .5% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .1rem solid black;
+    border-radius: .8rem;
+    box-shadow: .1rem .1rem .6rem black;
+}
+
+.navItem{   
+    width: 40%; 
+    display: flex;
+    justify-content: space-evenly;
+}
+#navtxt{
+    font-size: 1.2rem;
+}
+                                    /* SearchBar - start */
+#searchBar{
+    width: 15%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    border: .05rem solid black;
+    align-items: left;
+    margin-right: 2.6%;
+    border-radius: .6rem;
+} 
+#searchIcon{
+    width: 20%;
+}   
+#searchTxt{
+border: 0px solid;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.swiperImg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 1% 2%;
+}
+.swiper{
+    display: flex;
+    width: 85rem;
+    height: 40rem;
+    overflow: hidden;
+    border-radius: 4rem;
+    box-shadow: .2rem .2rem 2rem black;
+}                             
+.swiper-slide img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+/* tech grid item */
+.techGrid, .clothgrid, .looksgrid, .footgrid{
+    margin: 2% 3%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: 92%;
+    height: 100%;
+    grid-gap:1rem;
+    border-bottom: .17rem solid black;
+    box-shadow: .2rem .2rem 2rem black;
+}
+.clothgridcont, .techgridcont, .looksgridcont, .footgridcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: all  ease-in;
+}
+.clothgridcont:hover, .techgridcont:hover, .looksgridcont:hover,.footgridcont:hover{
+    transform: scale(1.1);
+}
+.techitem, .clothitem, .looksitem, .footitem{
+    width: 70%;
+    overflow: hidden;
+    border: .06rem solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+}
+.techitemimg, .clothitemimg, .looksitemimg, .footitemimg{
+    width: 100%;
+    object-fit: cover;
+}
+.techitemprice, .clothitemprice, .looksitemprice, .footitemprice{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.techb, .techc, .techl, .techf{
+    width: 50%;
+    font-size: 1.3rem;
+    padding: .7rem;
+    border-radius: .8rem;
+    color: white;
+    background-color: rgba(31, 31, 226, 0.918);
+}
+.techb:hover, .techc:hover, .techl:hover, .techf:hover {
+    background-color: rgb(31, 31, 226);
+    color: rgb(196, 5, 5);
+}
+/* tech grid end */
+
+/* section --extra  */
+    /*  main     6    section complete */
+.main6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentsec{
+    /* width: 65%; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0rem;
+    padding: .5rem 0rem;
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+@media screen and (max-width:1220px) {
+    .contentsec{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 2.4rem;
+       width: 100%;
+    }
+    .contentlogo{
+        display: flex;
+        gap: 1.5rem;
+       }
+    .contentabout{
+        width: 100%;
+    }
+}
+
+.contentlogo{
+ display: flex;
+ justify-content: start;
+ align-items: start;
+ flex-direction: column;
+ gap: 1.5rem;
+}
+.content1logo{
+    display: flex;
+    gap: .4rem;
+    justify-content: center;
+    align-items: center;
+}
+#content1logoimg{
+    width: 2rem;
+    height: 2rem;
+}
+#content1logoh2{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.868);
+}
+.content2logopara{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(100, 98, 98, 0.904);
+}
+.content3logo{
+    display: flex;
+    gap: 2rem;
+}
+#content3logoimg{
+    width:  1.8rem;
+    height: 1.8rem;
+}
+
+.contentabout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 7.7rem;
+    place-content: center;
+}
+@media screen and (max-width:1120px) {
+    .contentabout{
+       grid-template-columns: repeat(2,1fr);
+       place-content: center;
+       gap: 2.4rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .contentabout{
+       grid-template-columns: repeat(1,1fr);
+       place-content: center;
+       gap: 2.4rem;
+    }
+}
+
+
+.contentaboutgrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#contentabouth2{
+    font-size:1.2rem;
+    color: rgba(0, 0, 0, 0.801);
+}
+#contentaboutpara{
+    font-size: 1rem;
+    color: rgba(89, 87, 87, 0.952);
+    font-weight: 500;
+}
+
+/*  main     6    section complete */
+/* swction --extra */
+/* footer */
+.footer{
+    border-top: .1rem solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin: 2rem 0rem;
+}
+#footerpara{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(104, 101, 101, 0.516);
+    text-shadow: .051rem .051rem rgba(159, 156, 156, 0.776);
+}
+/* footer end */
+
+/* responsive */
+@media screen and (max-width:1120px) {
+    .techGrid, .clothgrid, .looksgrid, .footgrid{
+        margin: 2% 3%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        width: 92%;
+        height: 100%;
+        grid-gap:1rem;
+        border-bottom: .17rem solid black;
+        box-shadow: .2rem .2rem 2rem black;
+    }
+}
+@media screen and (max-width:700px) {
+    .techGrid, .clothgrid, .looksgrid, .footgrid{
+        margin: 2% 3%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        width: 92%;
+        height: 100%;
+        grid-gap:1rem;
+        border-bottom: .17rem solid black;
+        box-shadow: .2rem .2rem 2rem black;
+    }
+}
+@media screen and (max-width:700px) {
+    .nav{
+        padding:1rem 1rem;
+        flex-direction: column;
+    }
+    .navItem{   
+        width: 100%; 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #searchBar{
+        width: 50%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: start;
+        border: .05rem solid black;
+        align-items: left;
+        border-radius: .6rem;
+
+    }
+}
+@media screen and (max-width:700px) {
+    .heading{
+        padding: 1% 2%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: .1rem solid black; */
+        border-bottom: .2rem solid black;
+        box-shadow: .1rem .1rem .6rem black;
+    }
+    .companyBar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: .1rem solid black;
+        padding: 1rem 0rem;
+        box-shadow: .1rem .1rem .6rem black;
+    }
+    .login{
+        height: 8rem;
+        width: 8rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+    #favhidden {
+        display:none;
+    }
+}
